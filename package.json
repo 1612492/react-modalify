@@ -1,0 +1,41 @@
+{
+  "name": "react-modalify",
+  "version": "0.0.1",
+  "description": "",
+  "author": "1612492",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "storybook dev -p 3000",
+    "format": "prettier --ignore-unknown --write ."
+  },
+  "dependencies": {
+    "@react-spring/web": "^9.7.3",
+    "@stitches/react": "^1.2.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.22.15",
+    "@storybook/addon-essentials": "^7.4.2",
+    "@storybook/react": "^7.4.2",
+    "@storybook/react-webpack5": "^7.4.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "prettier": "^3.0.3",
+    "storybook": "^7.4.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
